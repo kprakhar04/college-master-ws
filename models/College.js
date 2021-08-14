@@ -18,7 +18,6 @@ const CollegeSchema = new mongoose.Schema({
     },
     state: {
         type: String,
-        ref: 'College',
         required: [true, 'State Required !']
     },
     country: {
